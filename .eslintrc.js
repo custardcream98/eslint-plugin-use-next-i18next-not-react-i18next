@@ -1,5 +1,6 @@
 "use strict";
 
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   root: true,
   extends: [
@@ -16,4 +17,5 @@ module.exports = {
       env: { mocha: true },
     },
   ],
+  ignorePatterns: ["sample/**/*"],
 };
