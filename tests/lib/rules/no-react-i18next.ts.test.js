@@ -8,12 +8,14 @@ const rule = require("../../../lib/rules/no-react-i18next"),
   RuleTester = require("eslint").RuleTester;
 
 const ruleTester = new RuleTester({
+  parser: require.resolve("@typescript-eslint/parser"),
   parserOptions: {
     ecmaVersion: 2015,
     sourceType: "module",
   },
 });
-ruleTester.run("no-react-i18next", rule, {
+
+ruleTester.run("ts/no-react-i18next", rule, {
   valid: [
     {
       code: 'import { t } from "next-i18next";',
