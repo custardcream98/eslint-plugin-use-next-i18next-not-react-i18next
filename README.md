@@ -33,7 +33,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "use-next-i18next-not-react-i18next/rule-name": 2
+    "use-next-i18next-not-react-i18next/no-react-i18next": 2
   }
 }
 ```
@@ -42,6 +42,12 @@ Then configure the rules you want to use under the rules section.
 
 <!-- begin auto-generated rules list -->
 
-TODO: Run eslint-doc-generator to generate the rules list.
+💼 Configurations enabled in.\
+✅ Set in the `recommended` configuration.\
+🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
+
+| Name                                               | Description                                         | 💼  | 🔧  |
+| :------------------------------------------------- | :-------------------------------------------------- | :-- | :-- |
+| [no-react-i18next](docs/rules/no-react-i18next.md) | Enforce next-i18next usage instead of react-i18next | ✅  | 🔧  |
 
 <!-- end auto-generated rules list -->

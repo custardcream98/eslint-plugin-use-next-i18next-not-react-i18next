@@ -1,8 +1,12 @@
-# Enforce next-i18next usage instead of react-i18next (`no-react-i18next`)
+# Enforce next-i18next usage instead of react-i18next (`use-next-i18next-not-react-i18next/no-react-i18next`)
 
-If you're using Next.js 12, use next-i18next instead of react-i18next.
+💼 This rule is enabled in the ✅ `recommended` config.
 
-This rule is autofixable.
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
+
+> If you're using Next.js 12, use next-i18next instead of react-i18next.
 
 ## Rule Details
 
