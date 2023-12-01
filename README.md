@@ -2,6 +2,8 @@
 
 If you're using Next.js 12, use next-i18next instead of react-i18next.
 
+This plugin is for dummy devs like me who forget to change the import from react-i18next to next-i18next.
+
 ## Installation
 
 You'll first need to install [ESLint](https://eslint.org/):
